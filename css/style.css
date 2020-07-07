@@ -1,0 +1,129 @@
+/*спецификация - базовый набор правил для всех блоков сайта*/
+
+body {
+    font-family: 'Pangolin', cursive;
+    padding: 0;
+    margin: 0;
+    transition: background 1s ease;
+    background-color: #37474F;
+    color: #ECEFF1;
+}
+
+
+.slide .inside {
+    height: 100%;
+    width: 100%;
+}
+
+/*header*/
+
+.header{
+    /*background: #37474F;*/
+    color: #ECEFF1;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.menu{
+    padding-top: 24px;
+}
+
+.menu__item{
+    list-style-type: none;
+    margin: 0 60px;
+}
+
+.menu__item a{
+    font-size: 24px;
+    color: #ECEFF1;
+}
+
+/*section1*/
+
+/*offer*/
+
+.title{
+    margin: 64px 0;
+}
+
+.title h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.offer{
+    background: #B8C0D5;
+    border: 20px solid #5C6BC0;
+    box-sizing: border-box;
+    box-shadow: inset 0px 5px 50px #000000;
+    border-radius: 84px;
+    margin: 24px;
+    padding: 36px;
+}
+
+.offer__title{
+    font-size: 36px;
+    color: #37464E;
+    text-align: center;
+}
+
+.offer__item{
+    font-size: 24px;
+    color: #37464E;
+    text-align: center;
+}
+
+.offer__button{
+    margin-top: 20px;
+    background: #5C6BC0;
+    border-radius: 50px;
+    font-size: 28px;
+    color: #ECEFF1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*section2*/
+
+.description{
+    margin: 70px 0;
+}
+
+.description_item{
+    padding: 0;
+}
+
+.description_item p{
+    margin-top: 70px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.description_item img{
+    margin-left: 15px;
+}
+
+/*section3*/
+
+.company .title h1{
+    margin-bottom: 70px;
+}
+
+.company_item img{
+    padding: 20px;
+}
+
+.company_item p{
+    font-size: 24px;
+}
+
+/*footer*/
+
+.footer{
+    height: 20%;
+    background: #263238;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
